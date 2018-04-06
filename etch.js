@@ -54,3 +54,5 @@ function isPosInt(str) {
 $con.addEventListener('mouseover', fillSquare);
 $btnClear.addEventListener('click', clear);
 $btnResize.addEventListener('click', resize);
+
+populate();
