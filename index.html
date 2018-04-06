@@ -14,12 +14,18 @@
 		.etch-box {
 			background-color: #eee;
 			float: left;
+			transition: background-color .5s;
+		}
+		.filled {
+			background-color: #44f;
 		}
 	</style>
 </head>
 <body>
 	<div id="container">
 		<h1>Etch-a-Sketch</h1>
+		<input type="button" name="clear" value="Clear" id="btn-clear">
+		<input type="button" name="resize" value="Resize" id="btn-resize">
 		<div id="etch-container"></div>
 	</div>
 	<script src="etch.js" type="text/javascript"></script>
